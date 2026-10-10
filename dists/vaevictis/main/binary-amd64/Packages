@@ -1,0 +1,23 @@
+Package: vaevictis-aurora
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: sound
+Maintainer: linuxtuts-website <292920559+linuxtuts-website@users.noreply.github.com>
+Installed-Size: 50
+Depends: python3, python3-pyqt6, python3-pyqt6.qtmultimedia, python3-mutagen
+Recommends: libnotify-bin, ffmpeg
+Filename: pool/main/v/vaevictis-aurora/vaevictis-aurora_1.1.0_all.deb
+Size: 15192
+MD5sum: db043a55ca4c83a57443402eae899cfa
+SHA1: 5ced1ad77e31eb14a4be769a7a25ec7507cd7892
+SHA256: 6b81d6973b155c6db153fca629e419e5149071ec5768aedc86547387fd49b37b
+SHA512: 7f95cb66ad396b05768e305a889a55aeacf2bead4fb15e8703e8dfddf7b6eaa6fc1ebbec203992f7107bc3212a648d76b1eaadc8cd8d779060ca8c680439619b
+Homepage: https://linuxtuts.online/vaevictis/vaevictis.html
+Description: Aurora, the VaeVictis music player
+ A simple music player written in Python with Qt 6: library and playlists,
+ search, shuffle and repeat, playback speed and a real-time spectrum that
+ follows the music. It makes no network connection at all.
+ .
+ Part of VaeVictis OS.
+

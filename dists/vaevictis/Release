@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: vaevictis
+Components: main
+Date: Sat, 10 Oct 2026 13:21:18 +0000
+Description: VaeVictis OS - packages by the author
+Label: VaeVictis OS
+Origin: VaeVictis OS
+Suite: vaevictis
+MD5Sum:
+ ea81d347e5183a5d2a08e39761f76595             1031 main/binary-amd64/Packages
+ 61f27d6a4d763fc2e2c9051cccb05ad8              665 main/binary-amd64/Packages.gz
+ 64fe5c3bb399d5c32c097f712fc8f604              764 main/binary-amd64/Packages.xz
+SHA1:
+ 625ad77c97f145639d0a3f879f0ce6d8dfc31f22             1031 main/binary-amd64/Packages
+ b6dca83b03d8e8596fa271913ef89dadd7f1ed54              665 main/binary-amd64/Packages.gz
+ b061b70527aeeabaada5f709969bf3d981bcc644              764 main/binary-amd64/Packages.xz
+SHA256:
+ 16d8d9f8e47affabe91ca0b94b1a4a274d8a7f26db09b1b728c373292cccf9c0             1031 main/binary-amd64/Packages
+ 58f40f393f89cdc236b32ffcf1d1b75ad8407da3aa250f2cdac1eae44316d370              665 main/binary-amd64/Packages.gz
+ 38e7d62ff5d4a4844fec3d035370061e2e829d45ed613963da6722464ea1418f              764 main/binary-amd64/Packages.xz
+SHA512:
+ 1e1dc9e38a74c3f71c46c79571d4b258d0900c7288b7778100fcbae4ea7d1fd608dbf2c87d11705a2f697efcd551536ebefc8335a3ca3bc41a277f2c85b17bd8             1031 main/binary-amd64/Packages
+ aafa86e0b68715aa895d7fbdf83ce6430f9b2905688b99aae0cdf089fa4247cfbd0d61a08a9a088395128e4547ff8711451405b4d6c72dcb2bc77b05436a2e75              665 main/binary-amd64/Packages.gz
+ 14aa0ea73e3daa0bdfecbf144feec0d8de0260ee2a405f99fd65e1238e8853d3bc89f58e4f451d179076b85da75700c68c12f589d996e8890a91da454de65007              764 main/binary-amd64/Packages.xz
