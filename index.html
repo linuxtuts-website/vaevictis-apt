@@ -14,15 +14,21 @@ code{font-family:ui-monospace,monospace}
 <ul>
 <li><code>vaevictis-aurora</code> 1.1.0 &mdash; Aurora, the VaeVictis music player</li>
 </ul>
-<h2>Use it (Debian 13 / VaeVictis OS, amd64)</h2>
+<h2>VaeVictis OS 1.1 and later</h2>
+<p>Nothing to do: the system already trusts this repository through the package <code>vaevictis-archive-keyring</code>, with
+three limits: only packages named <code>vaevictis-*</code> may come from here (a pin makes apt ignore anything else), the index is
+signed with the key below, and it <strong>expires</strong> if it is not re-signed, so an old index cannot be served again.
+<code>sudo apt update &amp;&amp; sudo apt upgrade</code> updates these programs. To stop trusting it:
+<code>sudo apt purge vaevictis-archive-keyring</code>.</p>
+<h2>VaeVictis OS 1.0 / 1.0.1 (Debian 13, amd64)</h2>
 <p>1. Download the repository key and <strong>check its fingerprint</strong>:</p>
 <pre>sudo install -d -m 0755 /etc/apt/keyrings
 sudo curl -fsSLo /etc/apt/keyrings/vaevictis.gpg https://apt.linuxtuts.online/vaevictis-archive-keyring.gpg
 gpg --show-keys --with-fingerprint /etc/apt/keyrings/vaevictis.gpg</pre>
 <p>The fingerprint must be exactly:</p>
 <pre>0A41 158C 1DD6 718D 3D3F  FED0 6848 6B39 B2A9 9993</pre>
-<p>2. Add the repository and install:</p>
-<pre>sudo tee /etc/apt/sources.list.d/vaevictis.sources &gt;/dev/null &lt;&lt;'EOF'
+<p>2. Add the repository for a moment, install its key package, then let the package take over:</p>
+<pre>sudo tee /etc/apt/sources.list.d/vaevictis-bootstrap.sources &gt;/dev/null &lt;&lt;'EOF'
 Types: deb
 URIs: https://apt.linuxtuts.online
 Suites: vaevictis
@@ -30,11 +36,16 @@ Components: main
 Signed-By: /etc/apt/keyrings/vaevictis.gpg
 EOF
 sudo apt update
-sudo apt install vaevictis-aurora</pre>
+sudo apt install vaevictis-archive-keyring vaevictis-aurora
+sudo rm /etc/apt/sources.list.d/vaevictis-bootstrap.sources /etc/apt/keyrings/vaevictis.gpg
+sudo apt update</pre>
+<p>If you added the repository with the older instructions (file <code>vaevictis.sources</code>): when apt asks about that file
+while installing <code>vaevictis-archive-keyring</code>, answer <code>Y</code>, then delete <code>/etc/apt/keyrings/vaevictis.gpg</code>.</p>
 <h2>Trust</h2>
 <ul>
 <li>Every package is also published, with its SHA-256, as an immutable GitHub release of the main project.</li>
-<li>The index files are signed with the key above. A published package version is never changed: a fix is a new version.</li>
-<li>To stop trusting this repository, delete <code>/etc/apt/sources.list.d/vaevictis.sources</code> and <code>/etc/apt/keyrings/vaevictis.gpg</code>.</li>
+<li>The index files are signed with the key above and carry an expiry date (<code>Valid-Until</code>). A published package version is never changed: a fix is a new version.</li>
+<li>Only packages named <code>vaevictis-*</code> are published here, and VaeVictis systems accept only those from here.</li>
+<li>What happens if the key or an account were compromised: <a href="https://github.com/linuxtuts-website/vaevictis-os/blob/main/docs/APT-REPOSITORY.md">APT-REPOSITORY.md</a>.</li>
 </ul>
 </body></html>
