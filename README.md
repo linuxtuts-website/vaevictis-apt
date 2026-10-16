@@ -51,6 +51,13 @@ sudo apt update
 If you added the repository with the older instructions (file `vaevictis.sources`): when apt asks about that file while
 installing `vaevictis-archive-keyring`, answer `Y`, then delete `/etc/apt/keyrings/vaevictis.gpg`.
 
+## No warranty
+
+The packages and this repository are provided **as is, without warranty of any kind** (GPL-3.0, sections 15 and 16). They
+are designed to reduce risks; none of the protections they provide is guaranteed. Installing a package from here means
+trusting its signing key and its maintainer, a single private person. Full text:
+[DISCLAIMER.md](https://github.com/linuxtuts-website/vaevictis-os/blob/main/DISCLAIMER.md).
+
 ## Trust
 
 - Every package is also published, with its SHA-256, as an immutable GitHub release of the main project.
