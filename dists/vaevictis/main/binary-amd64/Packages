@@ -67,3 +67,53 @@ Description: Aurora, the VaeVictis music player
  .
  Part of VaeVictis OS.
 
+Package: vaevictis-aurora
+Architecture: all
+Version: 1.1.2
+Priority: optional
+Section: sound
+Maintainer: linuxtuts-website <292920559+linuxtuts-website@users.noreply.github.com>
+Installed-Size: 52
+Depends: python3, python3-pyqt6, python3-pyqt6.qtmultimedia, python3-mutagen, vaevictis-tools (>= 1.2.0)
+Recommends: libnotify-bin, ffmpeg
+Filename: pool/main/v/vaevictis-aurora/vaevictis-aurora_1.1.2_all.deb
+Size: 16296
+MD5sum: a511d7634d14d30ad26d2d4880c31f8a
+SHA1: abb8cab7cbf27dcd12f97bbe9fae9b5f7b18f1fb
+SHA256: 3a1fcead4bca18f80b2dff4058763c3a4f7acef664ae5b996b05aa0cf3e73f3a
+SHA512: 9654f2064e9e9d6be4e06cc47b548ad0798f2e2717d2dbd4d8563d805d9cfef4c0da4dcef65bc033faeef3ac455ebd20944efad2014ceada7f42bc4b4e5bed1c
+Homepage: https://vaevictisos.org
+Description: Aurora, the VaeVictis music player
+ A simple music player written in Python with Qt 6: library and playlists,
+ search, shuffle and repeat, playback speed and a real-time spectrum that
+ follows the music. It makes no network connection at all.
+ .
+ Part of VaeVictis OS.
+
+Package: vaevictis-tools
+Architecture: all
+Version: 1.2.0
+Priority: optional
+Section: admin
+Maintainer: linuxtuts-website <292920559+linuxtuts-website@users.noreply.github.com>
+Installed-Size: 80
+Filename: pool/main/v/vaevictis-tools/vaevictis-tools_1.2.0_all.deb
+Size: 27008
+MD5sum: 9fffe7ee42ca5309051ecbf60312a9a8
+SHA1: bd822bb42f07b259be3a1a6c96f8e5fdb13e238d
+SHA256: 5366efb70e5b9f177ada2557b55b65a357e807213ffab7138bf8eb8f33a07e4d
+SHA512: c94cc664b8e489e93f1f44f35aed36442f9a381e744263ec5d1a68a5391f30ac0faf504c7c06e053d8689e5f4d75cbcd2012f775f1e9d2ae2ae76815e789b731
+Homepage: https://vaevictisos.org
+Description: fixed VaeVictis tools for systems installed from VaeVictis OS 1.1
+ Puts fixed versions of the VaeVictis tools in place of the copies that the
+ 1.1 image installed, at the same paths: the app sandbox, the VPN manager and
+ its helper, the VPN polkit rule, v-snap and the panic button.
+ .
+ A copy is replaced only if it is exactly a version VaeVictis shipped. Copies
+ changed locally, or from 1.0 and 1.0.1, are left alone, and a missing tool is
+ not added. The replaced copies are kept in /var/lib/vaevictis-tools/backup.
+ Removing this package does not restore them.
+ .
+ A hobby project written by AI and never audited: provided as is, without
+ warranty (GPL-3.0). Part of VaeVictis OS.
+

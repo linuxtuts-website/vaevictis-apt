@@ -7,7 +7,8 @@ Main project: <https://github.com/linuxtuts-website/vaevictis-os>
 ## Packages
 
 - `vaevictis-archive-keyring` 2026.10.13 - key and settings of the VaeVictis APT repository
-- `vaevictis-aurora` 1.1.1 - Aurora, the VaeVictis music player
+- `vaevictis-aurora` 1.1.2 - Aurora, the VaeVictis music player
+- `vaevictis-tools` 1.2.0 - fixed VaeVictis tools for systems installed from VaeVictis OS 1.1
 
 ## VaeVictis OS 1.1 and later
 

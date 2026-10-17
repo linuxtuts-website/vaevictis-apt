@@ -4,32 +4,32 @@ Hash: SHA512
 Architectures: amd64
 Codename: vaevictis
 Components: main
-Date: Tue, 13 Oct 2026 12:17:33 +0000
+Date: Sat, 17 Oct 2026 07:48:53 +0000
 Description: VaeVictis OS - packages by the author
 Label: VaeVictis OS
 Origin: VaeVictis OS
 Suite: vaevictis
-Valid-Until: Thu, 12 Nov 2026 12:17:33 +0000
+Valid-Until: Mon, 16 Nov 2026 07:48:53 +0000
 MD5Sum:
- 6f906b10c6a0155dfeb213da73181d26             3141 main/binary-amd64/Packages
- 76d8770d9cd4cd6cc3361a549078e14d             1339 main/binary-amd64/Packages.gz
- 79257ee4fb6f664f729a6bb984118c3f             1416 main/binary-amd64/Packages.xz
+ ac284e5b08c33773e10935065e1548f0             5482 main/binary-amd64/Packages
+ 90a7e2069896fb1ce0f2b194554ea481             2105 main/binary-amd64/Packages.gz
+ a314ad72bcf1ad36e87c27cc8ad0275e             2124 main/binary-amd64/Packages.xz
 SHA1:
- cc3ef3ae9a0f8b55c7608ced6aa318519e5197cb             3141 main/binary-amd64/Packages
- a5e9e9704aa59b36e3a228f477db2a162011d6fd             1339 main/binary-amd64/Packages.gz
- 5001fdbb70024ea7dd30e8154eaae203cf127d54             1416 main/binary-amd64/Packages.xz
+ b3be73fe5cb12a2ccf6e3893c787dc5bec024533             5482 main/binary-amd64/Packages
+ b09163c1988d94c42a80e8dab97b899bdf65eeb1             2105 main/binary-amd64/Packages.gz
+ d75f5e855f77ea7c1ce485eda3da1e417721e013             2124 main/binary-amd64/Packages.xz
 SHA256:
- f632a50f47ec2363faedf16e0c30e71dbebf8383baf7c452b706241ba62f040f             3141 main/binary-amd64/Packages
- 2a0bacae73d9c408547254e5188c214a04b5e9b25f59b2ceeaaf90aeb64599c6             1339 main/binary-amd64/Packages.gz
- 79f5be9f923e37baacb42365442cd56ccc4eff7ab0a4376208917d8c69fb7c32             1416 main/binary-amd64/Packages.xz
+ db0a81511db87da10c4f139262bd298a86e21aa18b5b28922297da54083e2b72             5482 main/binary-amd64/Packages
+ 1d7b6b9b5094f58bbce9b0f449f8dd68eb6c2f73e90b99317263e74acbc7de14             2105 main/binary-amd64/Packages.gz
+ acf2f752604796583e3dffd1e2988d1802c14af0c7db0bc2b20256fd33ed8a6b             2124 main/binary-amd64/Packages.xz
 SHA512:
- 765f45d4c53f4c3574e198834c26691ae8ab39a60449db7d1a4d12fd3b9914493946e18b340ead46b9ab959fd2a3e8a6670f5b30b3c4da74b1b2273d14e6749f             3141 main/binary-amd64/Packages
- 0e80ae19f418558babe8b999e4e6f45e88d06e3b4d330ca28a7f27dc93c7ddda5ad43a76c6d79493ccf6ee0cb4e8382410ccb1edd3efa37beb39c0e88ce154b7             1339 main/binary-amd64/Packages.gz
- d72bd7d812f9114fc89b15907607437d4d9b5e964bdea4366559f9588b53bc796c9d190d99d4126fdfde5c6f820e84567a41923320d5abaaa12b137f3d9d9937             1416 main/binary-amd64/Packages.xz
+ 743c5cd9d20c3d8ba287360cd01d00bafe72dd87f0ddd114d263d5284e23c453ef56a05720b720f9871458088e27f8a7e0ea7ac6fe33e46831be6ac105e8c512             5482 main/binary-amd64/Packages
+ dab6f63ea39c1e291b53898b240ca791861c744dfd056274260f9835263cf5386e796ac54cc462c49ede147282f9913079458e3e3de80a33277f1ade1290d094             2105 main/binary-amd64/Packages.gz
+ 559ba189ebf558dd83847c0c8d2efd0525a75334927a5b595191881e18fe707b6cf46ed0cda6f725337faa7f403f9f976cbbfc2a3ad13aeef7c215c90e91e00f             2124 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSuq1KgXxMs942FNkSG3x5Cj2ZvBgUCas4hXQAKCRCG3x5Cj2Zv
-Bv0dAQDyfFWdoTM8hbEkLVGrjIRCrm/IRz/4mjD3e+BdKRU8nAEApYsvM7KW6jE6
-fLIA4b2T2KNpd6TVFprwja14FO2PAwI=
-=4TVc
+iHUEARYKAB0WIQSuq1KgXxMs942FNkSG3x5Cj2ZvBgUCatMoZQAKCRCG3x5Cj2Zv
+BpeGAP9IYx2f4MqM02pQbPuNwNiOEDJYs81np6Mcdc2ZurGcuwEAue6IxWeR1Pr8
+Z7TrdUVw5AvoLOXy0u3xEdwrQMQiowg=
+=GtxV
 -----END PGP SIGNATURE-----
