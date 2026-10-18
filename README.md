@@ -1,3 +1,6 @@
+> **Closed on 18 October 2026.** This APT repository is no longer published and the address apt.linuxtuts.online has been removed. Updates for VaeVictis OS come from Debian only.
+> Installed from VaeVictis 1.1? Install the last fixes, which also remove this repository from your system, as described in [docs/UPDATING.md](https://github.com/linuxtuts-website/vaevictis-os/blob/main/docs/UPDATING.md). Why it was closed: [docs/APT-REPOSITORY.md](https://github.com/linuxtuts-website/vaevictis-os/blob/main/docs/APT-REPOSITORY.md).
+
 # VaeVictis OS - APT repository
 
 Signed APT repository for the packages written by the VaeVictis OS author.
